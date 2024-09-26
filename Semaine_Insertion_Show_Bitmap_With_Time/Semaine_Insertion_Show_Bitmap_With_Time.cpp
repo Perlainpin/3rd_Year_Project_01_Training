@@ -209,7 +209,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             shuffle(indexPixel.begin(), indexPixel.end(), std::default_random_engine(seed));
 
             // allow to generate only a part of the image
-            indexPixel.erase(indexPixel.begin(), indexPixel.begin() + indexPixel.size()/2);
+            //indexPixel.erase(indexPixel.begin(), indexPixel.begin() + indexPixel.size()/8);
 
             break;
         }
